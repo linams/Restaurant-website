@@ -1,0 +1,61 @@
+nav{
+    z-index:999;
+    height:60px;
+    width:100vw;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:0px 0px;
+    position:fixed;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+
+}
+.logo img{
+width: 56px;
+height: 55px;
+flex-shrink: 0;
+
+}
+
+.nav-links a{
+color: black;
+font-family: "DM Sans";
+font-size: 16px;
+text-decoration: none;
+font-weight: 500;
+line-height: 24px; 
+padding:10px 5px;
+
+}
+.navlinks a:hover{
+    background-color:rgba(134, 32, 218, 0.322);
+    
+}
+.logo p{
+color: #474747;
+font-family: "Playfair Display";
+font-size: 42.667px;
+font-style: italic;
+font-weight: 600;
+line-height: 29.333px; /* 68.75% */
+letter-spacing: -0.4px;
+}
+.mainbutton{
+
+display: inline-flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius:15px;
+
+}
+.mainbutton a{
+    color:brown;
+    text-decoration: none;
+}

@@ -1,0 +1,162 @@
+/*.container{
+    padding:70px 70px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    justify-content: space-evenly;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    align-items: center;
+}
+.container h1{
+    color:brown;
+
+}
+.container p{
+    width:200px;
+    font-style: italic;
+
+}
+    */
+    .reg{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-color:#F9F9F7;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .reg img{
+        width:100px;
+        height:100px;
+        align-items: center;
+      }
+      .reg h1{
+        font-size:50px;
+        color:#AD343E;
+        font-weight: normal;
+        padding-bottom:20px;
+      }
+      .reg .main{
+        padding: 20px;
+        display: block;
+        border: 1px solid #ccc;
+        margin-bottom: 30px;
+        width: 600px;
+        height:800px;
+        background-color:white;
+        /* margin-left:100px;s */
+        border-radius: 30px;
+        margin-left: 300px;
+        margin-right: 300px;
+      
+      }
+      .main par{
+        width:150px;
+        color:#AD343E
+      }
+      form select{
+        padding: 20px;
+        display: block;
+        border: 1px solid #ccc;
+        margin-bottom:20px;
+        margin-top:20px;
+        width:70%;
+        height:50px;
+        border-radius: 40px;
+        margin-left:90px;
+      
+      }
+      form input[type="text"],[type="email"]{
+        padding: 20px;
+        display: block;
+        border: 1px solid #ccc;
+        margin-bottom:20px;
+        margin-top:20px;
+        width:70%;
+        height:50px;
+        border-radius: 40px;
+        margin-left:90px;
+      }
+      form input[type="password"]{
+        padding: 20px;
+        display: block;
+        border: 1px solid #ccc;
+        margin-bottom:20px;
+        margin-top:20px;
+        width:70%;
+        height:50px;
+        border-radius: 40px;
+        margin-left:90px;
+      }
+      form input[type="number"]{
+        padding: 20px;
+        display: block;
+        border: 1px solid #ccc;
+        margin-bottom:20px;
+        margin-top:20px;
+        width:70%;
+        height:50px;
+        border-radius: 40px;
+        margin-left:90px;
+      }
+      label
+      {
+        display: flex;
+        position: relative;
+        top:60px;
+        color: #2C2F24;
+        font-weight: bold;
+      }
+      .main form input[type="submit"] {
+        background-color:#AD343E;
+        color: white;
+        padding: 20px;
+        border: none;
+        display: flex;
+        margin-left: auto;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 30px;
+        width:300px;
+        height:50px;
+        position: absolute;
+        left: 40%;
+      }
+      button{
+        background-color:#AD343E;
+        color: white;
+        padding: 20px;
+        border: none;
+        display: flex;
+        margin-left: auto;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 30px;
+        width:300px;
+        height:50px;
+        position: absolute;
+        left: 40%;
+        padding-left:8%;
+        display: flex;
+        flex-wrap: wrap;
+      
+      }
+      .reg .hav a{
+        color:#AD343E;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .reg .hav p{
+        color: #2C2F24;
+        margin-bottom: 10px;
+      }
+      

@@ -1,0 +1,62 @@
+/* Add Product main container */
+.add-product {
+    background-color: white;
+    color: #333;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header styles */
+  .main h1 {
+    font-size: 36px;
+    color: #a13333; /* Maroon */
+    text-align: center;
+  }
+  
+  .main p {
+    font-size: 18px;
+    color: #555; /* Slightly dark gray */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form input styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="url"], input[type="number"] {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus, input[type="url"]:focus, input[type="number"]:focus {
+    border-color: #a13333;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #a13333; /* Maroon */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #8b2c2c;
+  }
+  

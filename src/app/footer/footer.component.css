@@ -1,0 +1,57 @@
+.content{
+padding:75px 75px 75px 75px;
+width: 1600px;
+height: 400px;
+flex-shrink: 0;
+background: #474747;
+}
+
+.left{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-evenly;
+gap: 30px;
+}
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.title img{
+    width: 56px;
+height: 55px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+.title p{
+
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 32.67px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 29.333px; /* 89.787% */
+    letter-spacing: -0.4px;
+}
+.words{
+    color: var(--Neutral-04, #ADB29E);
+width:250px;
+/* Body/16px/Regular */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.icons img{
+    width: 35px;
+height: 35px;
+margin-right: 10px;
+}
+.icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+

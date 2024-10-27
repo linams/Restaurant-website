@@ -1,0 +1,22 @@
+<div class="menu">
+    <p class="title">Our Menu</p>
+    <p class="s">choose your happiness meal from our bestseller collection of best quality food</p>
+    <div class="buttons">
+
+    </div>
+    <div class="productscontainer">
+        @for(product of productsarray; track $index){
+            <div class="card">
+                <img [src]="product.productUrl">
+                <h3>{{product.productName}}</h3>
+                <p class="p1">{{product.productPrice}} LE</p>
+                <p class="p3">{{product.productSupplier}}</p>
+                <p class="p2">made with the best engredients</p>
+            </div>
+        
+        }
+    </div>
+    <a routerLink="/addproduct">Add Poduct</a>
+</div>
+
+

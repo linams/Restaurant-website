@@ -1,0 +1,247 @@
+.landing-section{
+    height:100vh;
+    width:100wh;
+    display:flex;
+    justify-content:center;
+
+}
+
+.landing-img{
+    height:100vh;
+    width:100vw;
+    position:absolute;
+    object-fit: cover;
+    left:0;
+    top:0;
+}
+
+.landing-text{
+    position:absolute;
+    z-index:5;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    width:50%;
+
+
+
+}
+.firsts{
+width: 667px;
+font-family:"Playfair Display";
+font-size: 60px;
+font-style: normal;
+font-weight: 200;
+line-height: 96px;
+}
+.s{
+    color: var(--Neutral-07, #2C2F24);
+text-align: center;
+width: 537px;
+
+font-family: "DM Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+.b1{
+    text:aliceblue;
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 118px;
+    background: #AD343E;
+}
+.b1 a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.b2{
+    display: flex;
+padding: 20px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 118px;
+border: 1.5px solid var(--Neutral-07, #2C2F24);
+}
+.b2 a{
+    color:black;
+    text-decoration: none;
+}
+.the-images{
+    display:flex;
+    justify-content: center;
+    
+  }
+  .menu{
+    height:100vh;
+    width:100vw;
+    padding:20;
+    display:flex;
+    flex-direction: column;
+    margin-top: 70px;
+    
+  }
+  .menu h4{
+    color: var(--Neutral-07, #2C2F24);
+  text-align: center;
+  
+  /* Headline/H2 */
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px; /* 110% */
+  padding:40px;
+  }
+  .bg{
+  width: 230px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1.5px solid var(--Neutral-03, #DBDFD0);
+  background: var(--Neutral-01, #FFF);
+  padding:50px;
+  gap:100px;
+  margin-right: 10px;
+  }
+  .card{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    gap: 24px;
+    
+  } 
+  .card h3{
+    color: var(--Neutral-07, #2C2F24);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  letter-spacing: -0.72px;
+  }
+  .card p{
+    color: var(--Neutral-06, #414536);
+  text-align: center;
+  
+  
+  font-family: "DM Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px; 
+  }
+  .links{
+    display: flex;
+  width: 111px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color:brown;
+  }
+  .sora{
+    width: 48px;
+  height: 50px;
+  flex-shrink: 0;
+  }
+
+  .section3{
+    width: 100wv;
+    height: 100hv;
+    flex-shrink: 0;
+    background: var(--Neutral-02, #F9F9F7);
+
+}
+.content{
+    display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 90px;
+margin-top: 100px;
+padding:100px;
+}
+.content img{
+    width:500px;
+    height: 600px;
+    border-radius: 20px;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    justify-content: space-around;
+
+}
+.left h2{
+    color: var(--Neutral-07, #2C2F24);
+
+/* Headline/H2 */
+font-family: "Playfair Display";
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 60.5px; /* 110% */
+}
+.left p{
+    color: var(--Neutral-07, #2C2F24);
+
+/* Body/18px/Medium */
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+padding:10px;
+}
+.left ptwo{
+    color: var(--Neutral-06, #414536);
+
+/* Body/16px/Regular */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.b1{
+    display: flex;
+padding: 20px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 118px;
+border: 1.5px solid var(--Neutral-07, #2C2F24);
+}
+.b1 a{
+    color: var(--Neutral-07, #182226);
+text-align: right;
+
+/* Body/16px/Bold */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.menu a{
+    color:#AD343E
+}
+
+.b2{
+    background-color:#AD343E
+}

@@ -1,0 +1,23 @@
+<div class="add-product">
+    <div class="main">
+      <h1>Add Product</h1>
+      <p>Fill out the details below to add a new product to our store.</p>
+      
+      <form (submit)="addProduct()">
+        <label for="productName">Product Name :</label>
+        <input type="text" id="productName" [(ngModel)]="product.productName" name="productName" required />
+  
+        <label for="productUrl">Product Image URL :</label>
+        <input type="url" id="productUrl" [(ngModel)]="product.productUrl" name="productUrl" required />
+  
+        <label for="productPrice">Product Price :</label>
+        <input type="number" id="productPrice" [(ngModel)]="product.productPrice" name="productPrice" required />
+  
+        <label for="productCategory">Product Category :</label>
+        <input type="text" id="productCategory" [(ngModel)]="product.productCategory" name="productCategory" required />
+  
+        <button type="submit">Add Product</button>
+      </form>
+    </div>
+  </div>
+  

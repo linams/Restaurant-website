@@ -1,0 +1,26 @@
+<div class="reg">
+    <div class="main">
+      <h1>Register</h1>
+      <p class="par">register and be part of our family and get the latest news and newly added meals</p>
+      <div class="hav">
+        <p>Already have an account?</p>
+        <a class="sh" routerLink="/log-in">Log-In</a> <!-- Router Link to Login -->
+      </div>
+      <form (submit)="sendData()">
+        <label for="userName">Name :</label>
+        <input type="text" id="userName" [(ngModel)]="data.userName" name="userName" />
+        <label for="userPassword">Password :</label>
+        <input type="password" id="userPassword" [(ngModel)]="data.userPassword" name="userPassword" />
+        <label for="userEmail">Email :</label>
+        <input type="email" id="userEmail" [(ngModel)]="data.userEmail" name="userEmail" />
+        <label for="userGender">Gender :</label>
+        <select id="userGender" [(ngModel)]="data.userGender" name="userGender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+        <label for="userPhone">Phone :</label>
+        <input type="text" id="userPhone" [(ngModel)]="data.userPhone" name="userPhone" />
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>

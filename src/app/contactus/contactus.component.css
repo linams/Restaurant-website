@@ -1,0 +1,75 @@
+/* Contact Us main container */
+.contact-us {
+    background-color: white;
+    color: #333;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #a13333; /* Maroon */
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #555; /* Slightly dark gray */
+  }
+  
+  /* Branches container */
+  .branches {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual branch styling */
+  .branch {
+    background-color: #fdfaf6;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-top: 5px solid #a13333; /* Maroon top border */
+  }
+  
+  .branch:hover {
+    transform: translateY(-10px);
+  }
+  
+  .branch h2 {
+    color: #000; /* Black for heading */
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .branch p {
+    color: #333; /* Dark gray for text */
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .branch strong {
+    color: #a13333; /* Maroon for strong text */
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    .branches {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .branch {
+      width: 90%;
+    }
+  }
+  
